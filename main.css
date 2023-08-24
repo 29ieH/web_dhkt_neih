@@ -1,0 +1,106 @@
+.grid-1200{
+    width: 960px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo__school{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__school--due{
+    height: 111px;
+    width: 638px;
+}
+.logo__school--udn{
+    height: 111px;
+    width: 116px;
+width: 100px;
+}
+.nav__sub--color{
+    height: 44px;
+    width: 100%;
+    margin-top: 6px;
+    background-color:#015FA9 !important;
+}
+.color--primary{
+    background-color:#015FA9 !important;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border-right: 1px solid #fff;
+}
+.nav-item__btn-home{
+    cursor: pointer;
+}
+.nav-item:last-child{
+    border-right: none;
+}
+.content{
+    margin: 26px 0px 20px 0px;
+}
+.heaing__home{
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.heading__title{
+    font-weight: 600;
+}
+.content__nd{
+    padding:12px 0px 26px;
+    border-bottom: 2px dashed black;
+}
+.content__nd-img{
+    height: 150px;
+    width: 228px;
+}
+.content__nd-p{
+    font-size: 16px;
+}
+.content__nd:last-child{
+    border-bottom: none;
+}
+.footer{
+    margin: 10px 0px 10px 0px !important;
+}
+.footer--sub{
+    margin: 0;
+}
+.margin--top{
+    margin-top: 8px !important;
+}
+.form-control{
+    width: 92%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.5;
+}
+.form__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed rgb(172 168 168);
+    padding: 8px;
+    border-radius: 16px;
+}
+.form__login--f{
+    margin-bottom: 8px;
+    text-align: center;
+}
+.btn{
+    display: block;
+    --bs-btn-font-size: 14px;
+    --bs-btn-font-weight: 15px;
+    --bs-btn-line-height: 14px;
+}
+.content__img-lib{
+    margin-top: 24px;
+    height: 106px;
+    width: 222px;
+}
